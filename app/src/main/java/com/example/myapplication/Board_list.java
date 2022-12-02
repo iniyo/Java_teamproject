@@ -29,8 +29,7 @@ public class Board_list {
         this.pl2_title = pl2_title;
     }
 
-    public Board_list(String pl2_peopleNum, String pl2_time, String pl2_title)
-    {
+    public Board_list(String pl2_peopleNum, String pl2_time, String pl2_title) {
         this.pl2_peopleNum = pl2_peopleNum;
         this.pl2_time = pl2_time;
         this.pl2_title = pl2_title;
