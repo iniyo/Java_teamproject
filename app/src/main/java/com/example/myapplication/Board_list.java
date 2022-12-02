@@ -35,4 +35,4 @@ public class Board_list {
         this.pl2_time = pl2_time;
         this.pl2_title = pl2_title;
     }
-}
+}//
