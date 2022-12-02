@@ -36,4 +36,3 @@ public class Board_list {
         this.pl2_title = pl2_title;
     }
 }
-//////////////////////////////////////////////
