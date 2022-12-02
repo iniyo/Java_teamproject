@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place_type">
+        <item>정보관</item>
+        <item>행복기숙사</item>
+        <item>수덕전</item>
+        <item>효민기숙사</item>
+        <item>공대</item>
+        <item>지천관</item>
+        <item>제1인문관</item>
+        <item>제2인문관</item>
+        <item>지천관</item>
+        <item>상경관</item>
+        <item>국제</item>
+        <item>법정관</item>
+        <item>효민축구장</item>
+        <item>생활과학관</item>
+        <item>효민체육관</item>
+        <item>음악관</item>
+    </string-array>
+</resources>

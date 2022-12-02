@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="people_number">
+        <item>1 명</item>
+        <item>2 명</item>
+        <item>3 명</item>
+        <item>4 명</item>
+        <item>5 명</item>
+        <item>6 명</item>
+        <item>7 명</item>
+        <item>8 명</item>
+        <item>9 명</item>
+        <item>10 명</item>
+    </string-array>
+</resources>
