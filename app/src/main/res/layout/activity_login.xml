@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:translationY="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/symbol"
+        android:translationY="40dp" />
+
+
+    <EditText
+        android:id="@+id/et_signEmail"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationX="10dp"
+        android:translationY="60dp" />
+
+
+    <EditText
+        android:id="@+id/et_signPW"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:translationX="10dp"
+        android:translationY="80dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2198F3"
+        android:clickable="true"
+        android:onClick="signIn"
+        android:text="로그인"
+        android:textColor="#A1887F"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="154dp"
+        android:translationY="140dp" />
+    <!--        android:text="0r" -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/login_sign_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:onClick="stratSingup"
+        android:text="회원가입"
+        android:textColor="#000000"
+        android:translationY="170dp" />
+
+
+    <!--    <Button-->
+<!--        android:layout_width="247dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="회원가입" />-->
+
+
+</LinearLayout>
